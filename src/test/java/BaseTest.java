@@ -26,7 +26,9 @@ public class BaseTest {
     public void ConfigureAppium() throws MalformedURLException, URISyntaxException{
          UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("QB Pixel 3 API 35");
-        options.setApp("//Users//quineebhattacharjee//Desktop//Learnings//AppiumJava//AppiumRS//AppiumPractice//AppiumRS//src//test//java//resources//ApiDemos-debug.apk");
+       // options.setApp("//Users//quineebhattacharjee//Desktop//Learnings//AppiumJava//AppiumRS//AppiumPractice//AppiumRS//src//test//java//resources//ApiDemos-debug.apk");
+       //General-Store
+       options.setApp("//Users//quineebhattacharjee//Desktop//Learnings//AppiumJava//AppiumRS//AppiumPractice//AppiumRS//src//test//java//resources//General-Store.apk");
 
          service = new AppiumServiceBuilder().withAppiumJS(new File("//Users//quineebhattacharjee//.nvm//versions//node//v19.9.0//lib//node_modules//appium//build//lib//main.js"))
                 .withIPAddress("127.0.0.1").usingPort(4723).build();
