@@ -35,7 +35,9 @@ public class iOSBaseTest {
 
         XCUITestOptions options = new XCUITestOptions();
         options.setDeviceName("iPhone 16");
-        options.setApp("//Users//quineebhattacharjee//Desktop//UIKitCatalog.app");
+        //options.setApp("//Users//quineebhattacharjee//Desktop//UIKitCatalog.app");
+         options.setApp("//Users//quineebhattacharjee//Desktop//Learnings//AppiumJava//AppiumRS//AppiumPractice//AppiumRS//src//test//java//resources//TestApp 3.app");
+      
         options.setPlatformVersion("18.0");
 
         //Appium tlks to WebDriver Agent and the agent talk to iOS app
